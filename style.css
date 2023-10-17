@@ -138,7 +138,7 @@ main {
 
 .gray-box {
     min-height: 550px;
-    background-color: rgb(195, 195, 195);
+    background-color: #F6F6F6;
     width: 100%;
     display: flex;
 }
@@ -152,7 +152,6 @@ main {
 
 .big-section {
     width: 75%;
-    background-color: blue;
     text-align: center;
 }
 
@@ -163,14 +162,13 @@ main {
 
 .small-section {
     width: 25%;
-    background-color: pink;
     display: flex;
     align-items: flex-end;
     flex-direction: column;
 }
 
-h2 {
-    width: 91%;
+.small-section > h2 {
+    width: 92%;
     padding-top: 55px;
     font-size: 45px;
 }
@@ -184,15 +182,45 @@ h2 {
 
 #change-order {
     order: -1;
+    align-items: flex-start;
 }
 
 #bigger-section {
-    background-color: green;
     width: 70%;
     margin: 25px auto;
-    height: 500px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#bigger-section > h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+#bigger-section > p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    width: 85%;
+    line-height: 25px;
+}
+
+h3 {
+    font-size: 28px;
+    padding-bottom: 25px;
+}
+
+#bigger-section > button  {
+    padding: 15px 25px;
+    background-color: #8EA1E1;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+}
 
 
 
