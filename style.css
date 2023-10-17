@@ -249,7 +249,29 @@ footer {
     display: flex;
     width: 40%;
     background-color: rgb(255, 156, 173);
+    flex-direction: column;
 }
+
+#footer-social-section > h3 {
+    font-size: 40px;
+    color: #8EA1E1;
+    width: 70%;
+    line-height: 45px;
+}
+
+#select-language {
+    width: 50%;
+    height: 25px;
+    display: flex;
+}
+
+
+
+#select-language > span {
+    align-self: center;
+    margin-left: 5px;
+}
+
 
 .footer-link-column {
     display: flex;
