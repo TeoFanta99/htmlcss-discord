@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -15,23 +16,28 @@ header {
 }
 
 #top-header {
-    height: 50px;
+    min-height: 50px;
     background-color: rgb(56, 189, 189);
     width: 100%;
     display: flex;
+    padding-top: 10px;
 }
 
 #box-top-header {
-    height: 40px;
+    min-height: 40px;
     margin: 5px auto;
-    background-color: orange;
     width: 70%;
     display: flex;
-    align-items: center;
+    justify-content: center;
+}
+
+#header-image-container {
+    display: flex;
+    margin: 0px auto;
 }
 
 #logo-discord {
-    width: 20%;
+    width: 100%;
 }
 
 #link-container {
@@ -43,16 +49,22 @@ header {
 
 a {
     margin-left: 10px;
+    color: white;
+    text-decoration: none;
 }
 
 #header-button-container {
     width: 20%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
-.button,#login-button {
-    width: 20%;
+#login-button {
+    padding: 8px 10px;
+    border-radius: 50px;
+    background-color: white;
+    border:none;
 }
 
 
