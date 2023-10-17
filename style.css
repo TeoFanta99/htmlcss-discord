@@ -235,19 +235,18 @@ footer {
     min-height: 300px;
     background-color: rgb(43, 43, 58);
     display: flex;
-    border-bottom: 1px solid white;
+    flex-direction: column;
 }
 
 #footer-big-section {
     display: flex;
     width: 70%;
     margin: 25px auto;
-    border: 1px solid white;
 }
 
 #footer-social-section {
     display: flex;
-    width: 40%;
+    width: 32%;
     flex-direction: column;
 }
 
@@ -286,9 +285,8 @@ footer {
 
 
 .footer-link-column {
-    width: 15%;
-    background-color: rgb(92, 215, 222);
-    border: 1px solid white;
+    width: 17%;
+    margin-left: 20px;
 }
 
 .link-column-container {
@@ -309,16 +307,22 @@ footer {
     color: white;
 }
 
+#top-footer > hr {
+    width: 70%;
+    color: white;
+    margin: 0 auto;
+}
+
 #low-footer {
     display: flex;
     width: 100%;
     background-color: rgb(43, 43, 58);
     min-height: 80px;
+    padding-bottom: 70px;
 }
 
 #low-footer-container {
     width: 70%;
-    background-color: rgb(159, 255, 255);
     height: 60px;
     display: flex;
     margin-top: 20px;
@@ -327,15 +331,21 @@ footer {
     justify-content: space-between;
 }
 
+#low-footer-container > img {
+    width: 150px;
+}
+
 #low-footer-button {
     display: flex;
+    align-items: center;
 }
 
 #registrati-button {
     background-color: #8EA1E1;
-    border: 0px;
+    border: none;
     margin: 15px;
-    padding: 0 9px;
+    padding: 13px 17px;
     border-radius: 50px;
     color: white;
+    font-size: 20px;
 }
